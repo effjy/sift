@@ -43,9 +43,6 @@ It ships as two front-ends over one dependency-free C++17 engine (`triage.hpp`):
   <sub><i>sift-gui — a wide, single-pane triage dashboard: ranked file table on the left, entropy heatmap and verdict on the right.</i></sub>
 </div>
 
-The GUI's **About** dialog (top-right ⓘ button) shows the version, author and
-repository link.
-
 ---
 
 ## 📦 Prerequisites
