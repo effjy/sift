@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=sift
+GenericName=File Triage
+Comment=Forensic file triage — entropy, file-type, masquerade and overlay detection
+Exec=sift-gui
+Icon=sift
+Terminal=false
+Categories=System;Security;GTK;
+Keywords=forensics;entropy;triage;malware;magic;masquerade;overlay;security;
+StartupNotify=true
+StartupWMClass=sift-gui

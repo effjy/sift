@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="spectrum" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0"    stop-color="#1f6feb"/>
+      <stop offset="0.35" stop-color="#00ffcc"/>
+      <stop offset="0.65" stop-color="#e2c044"/>
+      <stop offset="1"    stop-color="#ff5c5c"/>
+    </linearGradient>
+    <linearGradient id="funnel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00ffcc"/>
+      <stop offset="1" stop-color="#8a2be2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- backdrop -->
+  <rect x="0" y="0" width="256" height="256" rx="52" fill="#0d1117"/>
+  <rect x="3" y="3" width="250" height="250" rx="49" fill="none" stroke="#8a2be2" stroke-opacity="0.35" stroke-width="2"/>
+
+  <!-- sieve / funnel -->
+  <path d="M58 64 L198 64 L150 138 L150 196 L106 214 L106 138 Z"
+        fill="url(#funnel)" fill-opacity="0.16"
+        stroke="url(#funnel)" stroke-width="7" stroke-linejoin="round"/>
+
+  <!-- mesh slits across the funnel mouth -->
+  <g stroke="#00ffcc" stroke-width="5" stroke-linecap="round" opacity="0.9">
+    <line x1="74"  y1="80" x2="182" y2="80"/>
+    <line x1="86"  y1="98" x2="170" y2="98"/>
+  </g>
+
+  <!-- bytes falling out the bottom -->
+  <g fill="#8a2be2">
+    <circle cx="128" cy="150" r="6"/>
+    <circle cx="116" cy="172" r="5"/>
+    <circle cx="140" cy="178" r="5"/>
+    <circle cx="128" cy="196" r="4.5"/>
+  </g>
+
+  <!-- entropy spectrum bar -->
+  <rect x="48" y="232" width="160" height="12" rx="6" fill="url(#spectrum)"/>
+</svg>
