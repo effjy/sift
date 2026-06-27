@@ -1,6 +1,6 @@
 <div align="center">
 
-# sift
+<a href="https://github.com/effjy/sift/"><img src="titles/sift-title.svg" height="52" alt="Sift"></a>
 
 **Forensic file triage — what is this file *really*, and is it hiding something?**
 
